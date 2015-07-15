@@ -481,7 +481,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Edwin Bosire (H89DRU5VUU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -504,7 +504,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = FlappyBird;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "b3b83429-938f-4af7-93b1-8ac930010cff";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -514,7 +514,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Edwin Bosire (H89DRU5VUU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -535,7 +535,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = FlappyBird;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "b3b83429-938f-4af7-93b1-8ac930010cff";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
