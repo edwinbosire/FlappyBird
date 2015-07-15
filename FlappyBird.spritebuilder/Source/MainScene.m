@@ -181,8 +181,8 @@
         [character.physicsBody applyAngularImpulse:-40000.f*delta];
     }
     
-    physicsNode.position = ccp(physicsNode.position.x - (character.physicsBody.velocity.x * delta), physicsNode.position.y);
-    
+//    physicsNode.position = ccp(physicsNode.position.x - (character.physicsBody.velocity.x * delta), physicsNode.position.y);
+	
     // loop the ground
     for (CCNode *ground in _grounds) {
         // get the world position of the ground
