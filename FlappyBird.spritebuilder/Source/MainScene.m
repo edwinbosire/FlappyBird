@@ -170,12 +170,12 @@
 {
     _sinceTouch += delta;
     
-//    character.rotation = clampf(character.rotation, -30.f, 90.f);
-//    
-//    if (character.physicsBody.allowsRotation) {
-//        float angularVelocity = clampf(character.physicsBody.angularVelocity, -2.f, 1.f);
-//        character.physicsBody.angularVelocity = angularVelocity;
-//    }
+    character.rotation = clampf(character.rotation, -30.f, 90.f);
+
+    if (character.physicsBody.allowsRotation) {
+        float angularVelocity = clampf(character.physicsBody.angularVelocity, -1.f, 1.f);
+        character.physicsBody.angularVelocity = angularVelocity;
+    }
 	
     if ((_sinceTouch > 0.5f)) {
         [character.physicsBody applyAngularImpulse:-40000.f*delta];
