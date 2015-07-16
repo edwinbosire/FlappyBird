@@ -1,10 +1,12 @@
-FlappyBird.spritebuilder
+FlappyBird
 =======================
 
 ![image](GamePreview.gif)
 
-Learn how to build a Flappy Bird clone with SpriteBuilder and Cocos2d 3.0.
+I followed a tutorial on Cocos2d and Spritebuilder to clone Flappy Bird.
 
-This two part tutorial will take you through the basics and then later introduce you 
-to more advanced topics like infinitely scrolling parallax backgrounds and procedural 
-level generation.
+Its not much to look at but plays pretty well.
+
+
+
+
