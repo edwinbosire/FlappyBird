@@ -181,7 +181,7 @@
         [character.physicsBody applyAngularImpulse:-40000.f*delta];
     }
     
-    physicsNode.position = ccp(physicsNode.position.x - (character.physicsBody.velocity.x * delta), physicsNode.position.y);
+    physicsNode.position = ccp(physicsNode.position.x - (character.physicsBody.velocity.x ), physicsNode.position.y);
 	
     // loop the ground
     for (CCNode *ground in _grounds) {
@@ -256,7 +256,7 @@
     {
         @try
         {
-            character.physicsBody.velocity = ccp(90.f, clampf(character.physicsBody.velocity.y, -MAXFLOAT, 200.f));
+            character.physicsBody.velocity = ccp(80.f, clampf(character.physicsBody.velocity.y, -MAXFLOAT, 200.f));
             
             [super update:delta];
         }
