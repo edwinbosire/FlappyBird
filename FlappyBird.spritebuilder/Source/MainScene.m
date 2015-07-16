@@ -173,7 +173,7 @@
     character.rotation = clampf(character.rotation, -30.f, 90.f);
 
     if (character.physicsBody.allowsRotation) {
-        float angularVelocity = clampf(character.physicsBody.angularVelocity, 0.f, 2.f);
+        float angularVelocity = clampf(character.physicsBody.angularVelocity, 0.f, 9.f);
         character.physicsBody.angularVelocity = angularVelocity;
     }
 	
